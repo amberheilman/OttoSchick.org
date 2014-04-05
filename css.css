@@ -8,6 +8,17 @@ position:relative;
 }
 
 h1{
+margin-left:auto;
+margin-right:auto;
+position: relative;
+margin-top:0px;
+width:70%;
+height:30%;
+}
+
+header{
+
+
 
 }
 
@@ -31,21 +42,12 @@ overflow:hidden;
 #left-column{
 
 float:left;
-background-image: url('header-gears.png');
 width:30%;
 height: 100%;
 background-repeat:no-repeat;
 
 }
 
-#header{
-
-margin-left:auto;
-margin-right:auto;
-width:70%;
-height:30%;
-
-}
 
 #header h1{
 
@@ -56,16 +58,13 @@ font-size: 250%;
 
 #container{
 
-margin-left:auto;
-margin-right:auto;
-width:70%;
+margin-left: auto;
+margin-right: auto;
 height: 100%;
-background-color:#5C8A8A;
-text-align:left;
-padding:8px;
+background-color: #5C8A8A;
+padding: 8px;
 border: 5px solid;
-border-color: ##CCCCFF;
-border-radius:25px;
+text-align: center;
 
 }
 
