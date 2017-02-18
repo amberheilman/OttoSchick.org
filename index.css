@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+.container {
+    top: 0;
+    padding: 25% 0;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/7/73/Puerto_Rico_Beaches_01.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    /* background-color: gray; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+    /*height: 800px;*/
+}
+.item {
+    justify-content: center;
+    text-align: center;
+    height: 10%;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.nav-container {
+    background-color: rgba(255, 255, 255, 0.32);
+    position: fixed;
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Amatic SC';
+    font-size: 35px;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 70px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.32);
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+.nav-container a{
+    max-height: 70px;
+    text-decoration: none;
+    color: #868686;
+}
+.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+    align-self: center;
+}
+.nav-item i {
+    padding: 15px;
+}
+.nav-item a:hover {
+    border-bottom: 1px solid #424040;
+    color: #424040;
+}
+.item-container {
+    border-top: 1px solid white;
+    width: 50%;
+    display: inline-flex;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+h1 {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 70px;
+    padding-top: 1px;
+}
+h2, h5 {
+    font-family: 'Amatic SC';
+    margin-top: 1%;
+}
+h5 {
+    letter-spacing: 2px;
+}
+h2 {
+    padding-left: 10px;
+}
+.apartment-container {
+}
+.apartment-item {
+    height: 20%;
+    padding: 5%;
+}
+.h1-header {
+    font-family: 'Amatic SC';
+    text-align: center;
+}
+.apartment-desc {
+    font-family: 'Andale Mono';
+    color: #868686;
+}
+.apartment-links {
+    font-family: 'Andale Mono';
+    margin-top: 5%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.apartment-links-items {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
+.apartment-links-items span {
+    padding: 2%;
+    color: black;
+}
+.apartment-links-items a:hover {
+    color: rgb(0, 10, 156);
+}
+footer {
+    height: 5%;
+    background-color: black;
+    width: 100%;
+    text-align: right;
+    color: white;
+    font-family: 'Helvetica';
+    font-size: x-small;
+    padding: 1% 0 1% 0;
+    font-family: 'Andale Mono';
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    padding-right: 1%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 1075px) {
+
+    .nav-container {
+        background-color: white;
+        border-bottom: 1px solid #868686;
+    }
+}

@@ -1,0 +1,89 @@
+html {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/7/73/Puerto_Rico_Beaches_01.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    color: white;
+}
+.container {
+    /* background-color: gray; */
+    margin: 25% auto auto auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+}
+.item {
+    justify-content: center;
+    text-align: center;
+    height: 10%;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.nav-container {
+    background-color: rgba(255, 255, 255, 0.32);
+    position: fixed;
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Amatic SC';
+    font-size: 35px;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 70px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.32);
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+.nav-container a{
+    max-height: 70px;
+    text-decoration: none;
+    color: #868686;
+}
+.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+    align-self: center;
+}
+.nav-item i {
+    padding: 15px;
+}
+.nav-item a:hover {
+    border-bottom: 1px solid #424040;
+    color: #424040;
+}
+.item-container {
+    border-top: 1px solid white;
+    width: 50%;
+    display: inline-flex;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+h1 {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 70px;
+    padding-top: 1px;
+    letter-spacing: 2px;
+}
+h2, h5 {
+    font-family: 'Amatic SC';
+    margin-top: 1%;
+}
+h5 {
+    letter-spacing: 2px;
+}
+h2 {
+    padding-left: 10px;
+}
+/*http://wallpapercave.com/wp/He1RioX.jpg*/
